@@ -3,6 +3,7 @@ package domain_model;
 import java.time.LocalDate;
 import java.util.EnumSet;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class Member implements Comparable<Member>{
 
@@ -125,8 +126,11 @@ public class Member implements Comparable<Member>{
     }
 
     public String saveFormat() {
+        String locations = centreLocations.stream()
+                .map(Enum::name)
+                .collect(Collectors.joining(";"));
         return memberID + "," + fullName + "," + getBirthDay() + "," + email + "," + phoneNumber +
-                "," + centreLocations + "," + getMemberAccount().getBalance();
+                "," + locations + "," + getMemberAccount().getBalance();
     }
 
 

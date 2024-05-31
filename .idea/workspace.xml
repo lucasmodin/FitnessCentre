@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a90e48c9-7bc2-4489-8e48-aa6c3496ddf3" name="Changes" comment="Added CentreLocations class and implemented centreLocations set in member class">
+    <list default="true" id="a90e48c9-7bc2-4489-8e48-aa6c3496ddf3" name="Changes" comment="Added filehandling save/load and balance upon member creation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Database.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data_source/Filehandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_source/Filehandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain_model/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain_model/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/domain_model/FitnessClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain_model/FitnessClub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain_model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain_model/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain_model/MemberAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain_model/MemberAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain_model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain_model/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Userinterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Userinterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +73,7 @@
       <workItem from="1716578976030" duration="1333000" />
       <workItem from="1716581510065" duration="504000" />
       <workItem from="1716582739493" duration="1314000" />
-      <workItem from="1716584132816" duration="16018000" />
+      <workItem from="1716584132816" duration="19687000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -103,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716587211876</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added filehandling save/load and balance upon member creation">
+      <option name="closed" value="true" />
+      <created>1717151988987</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717151988987</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +117,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="added GroupTraining" />
     <MESSAGE value="Added CentreLocations class and implemented centreLocations set in member class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added CentreLocations class and implemented centreLocations set in member class" />
+    <MESSAGE value="Added filehandling save/load and balance upon member creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added filehandling save/load and balance upon member creation" />
   </component>
 </project>

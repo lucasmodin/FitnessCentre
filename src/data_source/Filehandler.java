@@ -11,13 +11,19 @@ import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.EnumSet;
 import java.util.Scanner;
+import java.util.Set;
 
 
 public class Filehandler {
 
     String filepath = "Database.csv";
     Scanner sc;
+
+    public Filehandler() {
+
+    }
 
 
 
@@ -58,20 +64,26 @@ public class Filehandler {
             LocalDate birthDay = LocalDate.parse(attributes[2], formatter);
             String email = attributes[3];
             String phoneNumber = attributes[4];
-            CentreLocations centreLocations = CentreLocations.valueOf(attributes[5]);
+            Set<CentreLocations> centreLocations = EnumSet.noneOf(CentreLocations.class);
+            for(String loc : attributes[5].split(";")) {
+                if(!loc.isEmpty()) {
+                    centreLocations.add(CentreLocations.valueOf(loc));
+                }
+            }
             double balance = Double.parseDouble(attributes[6]);
 
             int day = birthDay.getDayOfMonth();
             int month = birthDay.getMonthValue();
             int year = birthDay.getYear();
 
-
             Member memberData = new Member(
                     fullName, day, month, year, email, phoneNumber
             );
 
             memberData.setMemberID(memberId);
-            memberData.addCentreLocations(centreLocations);
+            for(CentreLocations loc : centreLocations) {
+                memberData.addCentreLocations(loc);
+            }
             memberData.getMemberAccount().setBalance(balance);
 
             loadedData.add(memberData);
