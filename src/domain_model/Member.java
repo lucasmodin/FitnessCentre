@@ -32,6 +32,7 @@ public class Member implements Comparable<Member>{
         this.memberAccount = new MemberAccount(this);
         this.centreLocations = EnumSet.noneOf(CentreLocations.class);
 
+
     }
 
     //**************** GETTERS ******************//
@@ -40,8 +41,13 @@ public class Member implements Comparable<Member>{
         return memberID;
     }
 
+
     public String getFullName() {
         return fullName;
+    }
+
+    public LocalDate getDateOfBirth() {
+        return birthDay;
     }
 
     public String getBirthDay() {
@@ -112,12 +118,16 @@ public class Member implements Comparable<Member>{
                         "Full Name: %s%n" +
                         "Birthday: %s%n" +
                         "Email: %s%n" +
-                        "Phone Number: %s" +
+                        "Phone Number: %s%n" +
                                 "Centre Locations: %s",
                 memberID, fullName, getBirthDay(), email, phoneNumber, locations
         );
-   }
+    }
 
+    public String saveFormat() {
+        return memberID + "," + fullName + "," + getBirthDay() + "," + email + "," + phoneNumber +
+                "," + centreLocations + "," + getMemberAccount().getBalance();
+    }
 
 
 

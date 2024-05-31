@@ -4,25 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a90e48c9-7bc2-4489-8e48-aa6c3496ddf3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FitnessCenter.iml" afterDir="false" />
+    <list default="true" id="a90e48c9-7bc2-4489-8e48-aa6c3496ddf3" name="Changes" comment="Added CentreLocations class and implemented centreLocations set in member class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_source/Filehandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_source/Filehandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain_model/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain_model/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain_model/FitnessClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain_model/FitnessClub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain_model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain_model/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain_model/MemberAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain_model/MemberAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain_model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain_model/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Userinterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Userinterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2gsQMF2Zo28g6T378YfX8xCW79G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -40,9 +52,19 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,10 +74,45 @@
       <option name="presentableId" value="Default" />
       <updated>1716483757424</updated>
       <workItem from="1716483758484" duration="209000" />
+      <workItem from="1716578976030" duration="1333000" />
+      <workItem from="1716581510065" duration="504000" />
+      <workItem from="1716582739493" duration="1314000" />
+      <workItem from="1716584132816" duration="16018000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1716579495531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716579495531</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added GroupTraining">
+      <option name="closed" value="true" />
+      <created>1716579842946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716579842946</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added CentreLocations class and implemented centreLocations set in member class">
+      <option name="closed" value="true" />
+      <created>1716587211876</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716587211876</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="added GroupTraining" />
+    <MESSAGE value="Added CentreLocations class and implemented centreLocations set in member class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CentreLocations class and implemented centreLocations set in member class" />
   </component>
 </project>
